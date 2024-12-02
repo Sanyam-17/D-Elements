@@ -1,0 +1,26 @@
+/* this css code is for text underlined transition on hover */
+/* START */
+#navbar ul li a{
+    text-decoration: none;
+    color: #303030;
+    position: relative;
+}
+
+#navbar ul li a:before{
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background: #000;
+    border-radius: 50px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition:transform 0.9s ease;
+    
+} 
+
+#navbar ul li a:hover:b
+
+
